@@ -1,0 +1,13 @@
+version: '2'
+services:
+  pwnbox:
+    image: tr3e/pwnbox:alpha-1.0
+    tty: true
+    restart: always
+    ports:
+      - "16422:22"  #ssh
+      - "16457-16467:7357-7367" #usable ports
+      - "16446:23946" #ida debug server
+    mem_limit: 1073741824 #1GB
+    cpu_shares: 50 #0.5核
+    container_name: pwnbox-alpha
