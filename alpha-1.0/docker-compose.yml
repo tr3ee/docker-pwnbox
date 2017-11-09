@@ -10,4 +10,4 @@ services:
       - "16446:23946" #ida debug server
     mem_limit: 1073741824 #1GB
     cpu_shares: 50 #0.5核
-    container_name: pwnbox-alpha
+    container_name: pwnbox-alpha-1.0
