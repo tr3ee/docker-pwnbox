@@ -11,8 +11,6 @@ MAINTAINER tr3e "tr3e@ur1.link"
 
 # ----------- Configure -------------
 COPY sshd_config /etc/ssh/sshd_config
-#COPY start.sh /root/start.sh
-#RUN chmod +x /root/start.sh
 
 WORKDIR /root
 CMD /root/start.sh
