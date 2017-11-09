@@ -3,7 +3,7 @@
 # @tr3e
 # 
 # version: 1.2
-FROM ubuntu:16.04
+FROM tr3e/pwnbox:alpha-1.1
 
 LABEL Description="This image is used to binary analysis e.g. reverse engineer, exploit, isolated execution"
 LABEL Version="alpha-1.2"
