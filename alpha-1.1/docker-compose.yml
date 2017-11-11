@@ -11,3 +11,4 @@ services:
     mem_limit: 1073741824 #1GB
     cpu_shares: 50 #0.5核
     container_name: pwnbox-alpha-1.1
+    privileged: true
